@@ -8,8 +8,12 @@ Group:		X11/Applications
 Source0:	http://www.symonds.net/~deep/stuff/vtu/ginf/%{name}-%{version}-src.tar.gz
 Patch0:		%{name}-pixbuf.patch
 URL:		http://www.symonds.net/~deep/stuff/vtu/ginf/index.php
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	gettext-devel
 BuildRequires:	gtk+-devel
 BuildRequires:	gtkhtml-devel
+BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
