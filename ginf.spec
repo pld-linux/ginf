@@ -16,7 +16,6 @@ BuildRequires:	gtkhtml-devel
 BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
 
 %description
 GINF is a Web-site creation software for the Linux platform, in the
