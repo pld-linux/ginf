@@ -51,7 +51,7 @@ rm -f install.sh
 %{__libtoolize}
 %{__gettextize} --intl
 %{__aclocal} -I macros
-autoheader
+%{__autoheader}
 %{__autoconf}
 %{__automake}
 
