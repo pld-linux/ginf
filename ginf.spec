@@ -51,8 +51,8 @@ fi
 %{__autoconf}
 %{__automake}
 
-#%{__aclocal} -I m4
-#%{__automake} m4/Makefile
+#%%{__aclocal} -I m4
+#%%{__automake} m4/Makefile
 
 %configure \
 	--without-included-gettext
