@@ -6,6 +6,7 @@ Release:	1
 License:	GPL v2
 Group:		X11/Applications
 Source0:	http://www.symonds.net/~deep/stuff/vtu/ginf/%{name}-%{version}-src.tar.gz
+# Source0-md5:	c46e2897df52b780257397df2e75d444
 Patch0:		%{name}-pixbuf.patch
 URL:		http://www.symonds.net/~deep/stuff/vtu/ginf/index.php
 BuildRequires:	autoconf
