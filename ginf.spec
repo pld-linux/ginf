@@ -37,12 +37,6 @@ do wy¶wietlania HTML.
 %prep
 %setup -q -n %{name}
 %patch0 -p1
-cat <<EOF > fixpo
-#!/bin/sh
-cat po/Makevars.template po/Makefile > po/tmp
-mv -f po/tmp po/Makefile
-EOF
-chmod u+rx fixpo
 
 %build
 touch po/POTFILES
@@ -50,6 +44,9 @@ rm -f missing acinclude.m4
 rm -f install.sh
 %{__libtoolize}
 %{__gettextize} --intl
+if [ -f po/Makevars.template ]; then
+	cp po/Makevars.template po/Makevars
+fi
 %{__aclocal} -I macros
 %{__autoheader}
 %{__autoconf}
@@ -60,8 +57,6 @@ rm -f install.sh
 
 %configure \
 	--without-included-gettext
-
-./fixpo
 
 %{__make}
 
