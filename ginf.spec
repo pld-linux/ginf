@@ -32,7 +32,7 @@ podobny do Netscape Composera i Microsoft FrontPage'a. Nie trzeba znaæ
 jêzyka HTML, aby tworzyæ strony przy u¿yciu GINF-a; wystarczy pisaæ
 tekst i formatowaæ go przy pomocy przycisków i menu. GINF u¿ywa
 zestawu widgetów GTK+ do interfejsu u¿ytkownika i biblioteki GtkHTML
-do wy¶wietlania HTML.
+do wy¶wietlania HTML-a.
 
 %prep
 %setup -q -n %{name}
