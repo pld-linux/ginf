@@ -1,5 +1,5 @@
 Summary:	GINF: Ginf Is Not FrontPage(TM)
-Summary(pl):	Ginf Is Not FrontPage(TM) - narzêdzie do tworzenia serwisów WWW
+Summary(pl.UTF-8):   Ginf Is Not FrontPage(TM) - narzÄ™dzie do tworzenia serwisÃ³w WWW
 Name:		ginf
 Version:	1.01
 Release:	1
@@ -26,13 +26,13 @@ in the text and format it with the buttons and menus. GINF uses the
 GTK+ widget set for the front-end, and the GtkHTML library for HTML
 rendering.
 
-%description -l pl
-GINF to oprogramowanie do tworzenia serwisów WWW pod Linuksem w sposób
-podobny do Netscape Composera i Microsoft FrontPage'a. Nie trzeba znaæ
-jêzyka HTML, aby tworzyæ strony przy u¿yciu GINF-a; wystarczy pisaæ
-tekst i formatowaæ go przy pomocy przycisków i menu. GINF u¿ywa
-zestawu widgetów GTK+ do interfejsu u¿ytkownika i biblioteki GtkHTML
-do wy¶wietlania HTML-a.
+%description -l pl.UTF-8
+GINF to oprogramowanie do tworzenia serwisÃ³w WWW pod Linuksem w sposÃ³b
+podobny do Netscape Composera i Microsoft FrontPage'a. Nie trzeba znaÄ‡
+jÄ™zyka HTML, aby tworzyÄ‡ strony przy uÅ¼yciu GINF-a; wystarczy pisaÄ‡
+tekst i formatowaÄ‡ go przy pomocy przyciskÃ³w i menu. GINF uÅ¼ywa
+zestawu widgetÃ³w GTK+ do interfejsu uÅ¼ytkownika i biblioteki GtkHTML
+do wyÅ›wietlania HTML-a.
 
 %prep
 %setup -q -n %{name}
