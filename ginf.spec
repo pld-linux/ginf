@@ -1,5 +1,5 @@
 Summary:	GINF: Ginf Is Not FrontPage(TM)
-Summary(pl.UTF-8):   Ginf Is Not FrontPage(TM) - narzędzie do tworzenia serwisów WWW
+Summary(pl.UTF-8):	Ginf Is Not FrontPage(TM) - narzędzie do tworzenia serwisów WWW
 Name:		ginf
 Version:	1.01
 Release:	1
